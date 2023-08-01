@@ -1,0 +1,21 @@
+body{
+    background-color: sienna;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 300;
+    color: white;
+    text-align: center;
+    text-decoration: line-through;
+    text-decoration-color: green;
+    font-size: 10px;
+}
+#cat_image{
+    border-color: red;
+}
+.font_demo
+{
+    color: #12ea34;
+    font-family: boolman old style;
+    font-size: 500px;
+    font-weight: bold;
+    text-decoration: underline;
+}

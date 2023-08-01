@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>javascript demo</title>
+	<script type="text/javascript">
+		function showcontent() {
+			document.getElementById('showcontent').innerHTML = document.getElementById('name').value
+		}
+		function changecolor(new_color) {
+			document.getElementById("showMessage").color = new_color
+		}
+	</script>
+
+</head>
+<body>
+	Enter Your Name : <input type="text" id="name" onchange="showcontent()">
+	<br><br>
+	<p id="showcontent"></p>
+	<button>show Name</button>
+	<br><br>
+	<input type="radio" id="rdo_color" name="rdo_color" onchange="changecolor('red')">red &nbsp;
+	<input type="radio" id="rdo_color" name="rdo_color" onchange="changecolor('blue')">blue
+	<br><br>
+	<font id="showMessage" color="orange">hello javascript</font>
+</body>
+</html>

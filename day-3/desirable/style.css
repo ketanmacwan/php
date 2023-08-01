@@ -1,0 +1,28 @@
+body{
+    background-color: wheat;
+}
+#page_block{
+    width: 75%;
+    margin: auto;
+}
+#page_block h1{
+    text-align: center;
+}
+#title-1{
+    font-weight: bolder;
+    color: coral;
+    font-family: sans-serif;
+}
+.para1{
+    font-family: sans-serif;
+    font-weight: bolder;
+}
+#title-2{
+    font-weight: bolder;
+    color: coral;
+    font-family: sans-serif;
+}
+.para2{
+    font-family: sans-serif;
+    font-weight: bolder;
+}

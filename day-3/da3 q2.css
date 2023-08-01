@@ -1,0 +1,12 @@
+.font_demo
+{
+	color: #12ea34;
+	font-family: boolman old style;
+	font-size: bold;
+	font-weight: 300;
+	color: white;
+	text-align: center;
+}
+#cat_image{
+	border: 3px solid white;
+}
